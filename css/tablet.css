@@ -1,0 +1,334 @@
+@media only screen and (max-width: 992px) and (min-width: 600px) {
+  /* Header styling */
+  header {
+    padding: 15px 15px;
+  }
+
+  .head-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .mobile-menu {
+    order: 3;
+    color: #ffffff;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .logo {
+    max-width: 100px;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .head-btn {
+    font-size: 15px;
+    padding: 5px 25px;
+    margin-right: -200px;
+  }
+
+  /* Hero area styling */
+
+  .hero-area {
+    padding: 70px 15px;
+  }
+
+  .hero-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .hero-heading {
+    font-size: 40px;
+  }
+
+  .hero-text {
+    font-size: 17px;
+    margin-top: 20px;
+    width: 370px;
+  }
+
+  .hero-btn-area {
+    margin-top: 30px;
+    display: flex;
+  }
+
+  .blue-btn {
+    border: 0;
+    background-color: #0c8bfd;
+    margin-right: 15px;
+    transition: 0.5s;
+  }
+
+  .hero-img {
+    width: 95%;
+    text-align: center;
+    margin-left: 30px;
+  }
+
+  /* Brand logo area styling */
+  .brand-area {
+    background-color: #1d1c1c;
+    padding: 50px 15px;
+  }
+
+  .company-logo {
+    max-width: 150px;
+  }
+
+  /* services section styling */
+  .service-main {
+    padding: 60px 15px;
+  }
+
+  .service-heading {
+    font-size: 42px;
+  }
+
+  .service-text {
+    font-size: 20px;
+  }
+
+  .service-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 60px;
+  }
+
+  .service1 {
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .service2 {
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .service3 {
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .services-text {
+    font-size: 19px;
+  }
+
+  /* Faq section styling */
+
+  .faq-main {
+    max-width: 100%;
+    padding: 20px 15px 120px 15px;
+  }
+
+  .faq-container {
+    padding-top: 25px;
+  }
+
+  .faq-heading {
+    text-align: center;
+    font-size: 45px;
+    line-height: 1.3em;
+  }
+
+  .faq-left {
+    flex-basis: 57%;
+  }
+
+  .faqs {
+    padding: 25px;
+  }
+
+  .faq-text {
+    font-size: 17px;
+  }
+
+  .faq-right {
+    padding: 22px 10px;
+    border-radius: 35px;
+    margin-top: 20px;
+  }
+
+  .faqs-right-box {
+    background-color: #292828;
+    margin: 11px;
+    padding: 14px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border-radius: 100px;
+  }
+
+  .faq-circle {
+    color: #d9d9d9;
+    font-size: 18px;
+  }
+
+  .faqs-right-text {
+    font-size: 14px;
+    color: #d9d9d9;
+  }
+
+  /* Plan area styling */
+
+  .paln-main {
+    padding: 60px 15px 100px 15px;
+  }
+
+  .plan-head {
+    width: 100%;
+  }
+
+  .plan-heading {
+    font-size: 45px;
+  }
+
+  .arrow-icon {
+    max-width: 30px;
+  }
+
+  .arrow-left,
+  .arrow-right {
+    margin-top: -90px;
+  }
+
+  .icon1 {
+    margin-left: 0;
+  }
+
+  .icon2 {
+    margin-right: 0;
+  }
+
+  /* Plan area styling */
+  .plans-boxes {
+    width: 100%;
+    flex-direction: column;
+    padding-top: 100px;
+    gap: 40px;
+  }
+
+  .regular {
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .standard {
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .premium {
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .feature-data {
+    color: #111010;
+    font-size: 19px;
+  }
+
+  .standard-data {
+    color: #ffffff;
+  }
+
+  /* Testimonials section styling */
+
+  .testimonial-main {
+    padding-bottom: 100px;
+  }
+
+  .testimonial-head {
+    max-width: 100%;
+    padding: 100px 15px 60px 15px;
+  }
+
+  .testimonial-heading {
+    font-size: 45px;
+  }
+
+  .testimonials-area {
+    padding: 0 15px 60px 15px;
+  }
+
+  .testimonial-scroll {
+    width: 90%;
+    margin: 0 auto;
+    height: 8px;
+    border-radius: 35px;
+    background: linear-gradient(
+      to right,
+      #0c8bfd 0%,
+      #0c8bfd 20%,
+      #f3f3f3 20%,
+      #f3f3f3 100%
+    );
+  }
+
+  /* Signin form are and form styling */
+
+  .signin-main {
+    background-color: #111010;
+    padding: 100px 0;
+  }
+
+  .signin-heading br {
+    display: none;
+  }
+
+  .signin-heading {
+    font-size: 45px;
+    padding: 0 15px;
+  }
+
+  .signin-form-area {
+    width: 95%;
+  }
+
+  input {
+    width: 26%;
+  }
+
+  .form-submit {
+    width: 20%;
+  }
+
+  /* Footer area styling */
+
+  .footer-main {
+    width: 100%;
+    padding: 70px 15px;
+  }
+
+  .footer-col1 {
+    flex-basis: 25%;
+    padding-left: 30px;
+  }
+
+  .footer-col2 {
+    flex-basis: 25%;
+    padding-left: 30px;
+  }
+
+  .footer-col3 {
+    flex-basis: 25%;
+    padding-left: 30px;
+  }
+
+  .footer-col4 {
+    flex-basis: 25%;
+    padding-left: 30px;
+  }
+
+  .copyright {
+    width: 100%;
+    padding: 30px 15px 50px 15px;
+  }
+}

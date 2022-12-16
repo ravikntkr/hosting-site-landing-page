@@ -1,0 +1,409 @@
+@media only screen and (max-width: 600px) {
+  /* Header styling */
+  header {
+    background-color: #111010;
+    padding: 15px 15px;
+  }
+
+  .head-container {
+    max-width: 100%;
+  }
+
+  .mobile-menu {
+    order: 3;
+    color: #ffffff;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .logo {
+    max-width: 100px;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .head-btn {
+    font-size: 15px;
+    padding: 5px 25px;
+    margin-right: -160px;
+  }
+
+  /* Hero area styling */
+
+  .hero-area {
+    max-width: 100%;
+
+    padding: 50px 15px 20px 15px;
+  }
+
+  .hero-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .hero-left {
+    width: 100%;
+  }
+
+  .hero-heading {
+    font-size: 40px;
+  }
+
+  .hero-text {
+    font-size: 16px;
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .hero-btn-area {
+    margin-top: 30px;
+    display: flex;
+  }
+
+  .hero-btn {
+    font-size: 15px;
+  }
+
+  .blue-btn {
+    border: 0;
+    background-color: #0c8bfd;
+    margin-right: 15px;
+    transition: 0.5s;
+  }
+
+  .hero-right {
+    margin: 60px auto;
+    max-width: 100%;
+  }
+
+  .hero-img {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* Brand logo area styling */
+  .brand-area {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #1d1c1c;
+    padding: 40px 15px;
+  }
+
+  .company-logo {
+    max-width: 70px;
+  }
+
+  /* services section styling */
+
+  .service-main {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 60px 15px;
+  }
+
+  .service-heading {
+    font-size: 40px;
+    line-height: 1.3em;
+  }
+
+  .service-text {
+    font-size: 15px;
+    margin-top: 15px;
+  }
+
+  .service-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 40px;
+  }
+
+  .service1 {
+    width: 100%;
+    margin: 0;
+  }
+
+  .service2 {
+    width: 100%;
+    margin: 0;
+  }
+
+  .service3 {
+    width: 100%;
+    margin: 0;
+  }
+
+  .services-text {
+    font-size: 18px;
+  }
+
+  /* Faq section styling */
+
+  .faq-main {
+    max-width: 100%;
+    padding: 20px 15px 80px 15px;
+  }
+
+  .faq-heading {
+    text-align: center;
+    font-size: 35px;
+  }
+
+  .faq-container {
+    padding-top: 25px;
+    flex-wrap: wrap;
+  }
+
+  .faq-left {
+    flex-basis: 100%;
+  }
+
+  .faqs {
+    padding: 15px;
+    margin-top: 20px;
+  }
+
+  .faq-text {
+    font-size: 14px;
+  }
+
+  .faq-text-active {
+    color: #ffffff;
+  }
+
+  .faq-right {
+    flex-basis: 100%;
+  }
+
+  .faqs-right-box {
+    background-color: #292828;
+    margin: 11px;
+    padding: 18px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border-radius: 100px;
+  }
+
+  .faq-circle {
+    color: #d9d9d9;
+    font-size: 18px;
+  }
+
+  .faqs-right-text {
+    font-size: 14px;
+    color: #d9d9d9;
+  }
+
+  /* Plan area styling */
+
+  .paln-main {
+    padding: 60px 15px 100px 15px;
+  }
+
+  .plan-head {
+    width: 100%;
+  }
+
+  .plan-heading {
+    font-size: 35px;
+  }
+
+  .arrow-icon {
+    max-width: 30px;
+  }
+
+  .arrow-left,
+  .arrow-right {
+    margin-top: -90px;
+  }
+
+  .icon1 {
+    margin-left: 0;
+  }
+
+  .icon2 {
+    margin-right: 0;
+  }
+
+  /* Plan area styling */
+  .plans-boxes {
+    width: 100%;
+    flex-direction: column;
+    padding-top: 80px;
+    gap: 30px;
+  }
+
+  .regular {
+    width: 100%;
+  }
+
+  .standard {
+    width: 100%;
+  }
+
+  .premium {
+    width: 100%;
+  }
+
+  .feature-data {
+    color: #111010;
+    font-size: 18px;
+  }
+
+  .standard-data {
+    color: #ffffff;
+  }
+
+  /* Testimonials section styling */
+
+  .testimonial-main {
+    padding-bottom: 100px;
+  }
+
+  .testimonial-head {
+    max-width: 100%;
+    flex-direction: column;
+    padding: 80px 15px 60px 15px;
+  }
+
+  .testimonial-heading {
+    font-size: 40px;
+    text-align: center;
+    line-height: 1.3em;
+  }
+
+  .testimonial-htext {
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  .testimonial-htext br {
+    display: none;
+  }
+
+  .testimonial-hleft {
+    flex-basis: 100%;
+  }
+
+  .testimonial-hright {
+    flex-basis: 100%;
+  }
+
+  .testimonials-area {
+    max-width: 100%;
+    flex-direction: column;
+    gap: 40px;
+    padding: 0 15px 60px 15px;
+  }
+
+  .testimonials1 {
+    flex-basis: 100%;
+  }
+
+  .testimonials2 {
+    flex-basis: 100%;
+  }
+
+  .feedback-text br {
+    display: none;
+  }
+
+  .testimonial-scroll {
+    width: 90%;
+  }
+
+  /* Signin form are and form styling */
+
+  .signin-main {
+    padding: 80px 15px 80px 15px;
+  }
+
+  .signin-heading br {
+    display: none;
+  }
+
+  .signin-heading {
+    font-size: 40px;
+  }
+
+  .signin-form-area {
+    width: 100%;
+    flex-direction: column;
+    gap: 20px;
+    padding: 35px 30px;
+    background: #292828;
+    border-radius: 35px;
+  }
+
+  input {
+    width: 100%;
+    padding: 17px 25px;
+    border-radius: 35px;
+    background-color: #3e3d3d;
+    border: none;
+  }
+
+  input::placeholder {
+    font-size: 18px;
+  }
+
+  .form-submit {
+    width: 100%;
+    padding: 17px 25px;
+    cursor: pointer;
+  }
+
+  /* Footer area styling */
+
+  .footer-main {
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 50px 15px 50px 15px;
+  }
+
+  .footer-col1 {
+    flex-basis: 50%;
+    padding-left: 25px;
+  }
+
+  .footer-col2 {
+    flex-basis: 50%;
+    padding-left: 25px;
+  }
+
+  .footer-col3 {
+    flex-basis: 50%;
+    padding-left: 25px;
+    margin-top: 25px;
+  }
+
+  .footer-col4 {
+    flex-basis: 50%;
+    padding-left: 25px;
+    margin-top: 25px;
+  }
+
+  .copyright {
+    width: 100%;
+    margin: 0 auto;
+    flex-direction: column;
+    padding: 30px 15px 50px 15px;
+  }
+
+  .footer-logo {
+    flex-basis: 100%;
+    margin: 0 auto;
+  }
+
+  .copyright-text {
+    flex-basis: 100%;
+  }
+
+  .developer-details {
+    margin-top: 20px;
+  }
+}
